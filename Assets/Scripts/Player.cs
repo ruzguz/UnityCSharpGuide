@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     // Variable to store name
-    public string  name = "Rusben"; 
+    public string  playerName = "Rusben"; 
     // Variable to store Age
     public int age = 25;
     // Variable to store speed
@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Name: " + name);
+        Debug.Log("Name: " + playerName);
         Debug.Log("Age: " + age);
         Debug.Log("Speed: " + speed);
         Debug.Log("Health: " + health);
