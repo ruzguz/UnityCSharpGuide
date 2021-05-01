@@ -28,7 +28,7 @@ public class QuizAverageCalculator : MonoBehaviour
         Debug.Log("Quiz #3 = " + quiz3);
         Debug.Log("Quiz #4 = " + quiz4);
         Debug.Log("Quiz #5 = " + quiz5);
-        Debug.Log("Quiz grades average: " + average);
+        Debug.Log("Quiz grades average: " + average.ToString("F2"));
 
     }
 }
