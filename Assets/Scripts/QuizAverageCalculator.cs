@@ -22,13 +22,19 @@ public class QuizAverageCalculator : MonoBehaviour
 
         // Caldulate the average and print it 
         average = (quiz1 + quiz2 + quiz3 + quiz4 + quiz5) / 5;
-        Debug.Log("Quiz results: ");
-        Debug.Log("Quiz #1 = " + quiz1);
-        Debug.Log("Quiz #2 = " + quiz2);
-        Debug.Log("Quiz #3 = " + quiz3);
-        Debug.Log("Quiz #4 = " + quiz4);
-        Debug.Log("Quiz #5 = " + quiz5);
-        Debug.Log("Quiz grades average: " + average.ToString("F2"));
+
+        //average = Mathf.Round(average * 100f) / 100f;
+
+        average = Mathf.Round(100.5555f * 1000f) / 1000f;
+
+        // Debug.Log("Quiz results: ");
+        // Debug.Log("Quiz #1 = " + quiz1);
+        // Debug.Log("Quiz #2 = " + quiz2);
+        // Debug.Log("Quiz #3 = " + quiz3);
+        // Debug.Log("Quiz #4 = " + quiz4);
+        // Debug.Log("Quiz #5 = " + quiz5);
+        
+        Debug.Log("Quiz grades average: " + average);
 
     }
 }
