@@ -42,5 +42,14 @@ public class PlayerIfStatement : MonoBehaviour
             points += 10;
         }
 
+        // Challenge #3 
+        // if points is greather or equals than 50
+        // print you are the boss
+
+        if (points >= 50) 
+        {
+            Debug.Log("You are the BOSS!!!");
+        }
+
     }
 }
