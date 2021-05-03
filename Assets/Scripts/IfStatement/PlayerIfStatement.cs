@@ -11,6 +11,9 @@ public class PlayerIfStatement : MonoBehaviour
     // Challenge #1
     public int points = 0;
 
+    // Challenge #4 
+    public bool hasSaidMessage = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,12 +46,13 @@ public class PlayerIfStatement : MonoBehaviour
         }
 
         // Challenge #3 
-        // if points is greather or equals than 50
+        // if points is greather or equals than 50 AND has not said message 
         // print you are the boss
 
-        if (points >= 50) 
+        if (points >= 50 && !hasSaidMessage) 
         {
             Debug.Log("You are the BOSS!!!");
+            hasSaidMessage = true;
         }
 
     }
