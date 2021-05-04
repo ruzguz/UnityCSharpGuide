@@ -418,6 +418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1248794606}
   - component: {fileID: 1248794607}
+  - component: {fileID: 1248794608}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -446,11 +447,33 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248794605}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ed421016e0774043ae7a6d941500898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  easyDifficulty: 0
+  mediumDifficulty: 1
+  hardDifficulty: 2
+  currentDifficulty: 0
+--- !u!114 &1248794608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248794605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd85e5137c6944293993b4c43c996b0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quiz1: 0
+  quiz2: 0
+  quiz3: 0
+  quiz4: 0
+  quiz5: 0
+  _average: 0
 --- !u!1 &1337529082
 GameObject:
   m_ObjectHideFlags: 0
